@@ -1,0 +1,90 @@
+       
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+       }
+            body{
+              --header-height:50px;
+              margin: var(--header-height) 0 0 0;
+              font-family: Sans-Serif;
+            }
+            .preload *{
+              transition: none !important;
+            }
+            
+          .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: var(--header-height);
+            background: #333333;
+            display: flex;
+          }
+          .header__button{
+            background: transparent;
+            color: #fff;
+            border: none;
+            outline: 0;
+            width: var(--header-height);
+            flex-shrink: 0;
+          }
+          
+          .nav__links{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #fff;
+            height: 100vh;
+            width: 250px;
+            z-index: 2;
+            transform: translateX(-250px);
+            transition: transform 0.3s;
+          }
+          .nav--open  .nav__links{
+            transform: translateX(0px);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+          }
+          .nav__link{
+            display: flex;
+            align-items: content;
+            font-size: 14px;
+            font-weight: bold;
+            
+            margin: 5px;
+            color: #555;
+            padding: 12px 15px;
+            text-decoration: none;
+            background: transform 0.2s;
+          }
+          .nav__link i{
+            margin-right: 15px;
+            
+          }
+          
+          .nav__link--active,
+          .nav__link:hover{
+            background-color:#eeeeee ;
+            color: #009578;
+            
+          }
+            
+         .nav__overlay{
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100vw;
+           height: 100vh;
+           background: rgba(0,0,0,0.5);
+           backdrop-filter: blur(2px);
+           visibility: hidden;
+           opacity: 0;
+           transition: opacity 0.3s;
+           
+         }   
+         .nav--open .nav__overlay{
+           visibility: visible;
+           opacity: 1;
+         }
+       
