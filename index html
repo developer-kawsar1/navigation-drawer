@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title></title>
+       <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+       <link href="menu.css" media="all" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body class="preload">
+      
+      <header class="header">
+        <button class="header__button" type="button" id="btnNav"><i class="mdi  mdi-36px  mdi-menu"></i></button>
+      </header>
+      <nav class="nav">
+        <div class="nav__links">
+          <a class="nav__link" href="#"><i class="mdi mdi-view-dashboard"></i>Dashbord</a>
+          <a class="nav__link nav__link--active" href="#"><i class="mdi mdi-label"></i>Projects</a>
+          <a class="nav__link" href="#"><i class="mdi mdi-lock"></i>Security</a>
+          <a class="nav__link" href="#"><i class="mdi mdi-history"></i>History</a>
+          <a class="nav__link" href="#"><i class="mdi mdi-account"></i>Profile</a>
+        </div>
+        <div class="nav__overlay">
+          
+        </div>
+      </nav>
+      <main>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quisLorem ipsum dolor sit amet consectetur Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo facere non quia totam dicta quo aperiam exercitationem corrupti consectetur fuga, tenetur ullam modi ad ex explicabo odio autem provident voluptatum enim dolore ut soluta placeat. Dolore laboriosam ducimus voluptate tenetur aliquid doloribus blanditiis nisi. Nam, porro quod odit atque omnis nisi nesciunt, labore, sed vel quos a sapiente mollitia doloremque. Perferendis soluta voluptas ullam eius aspernatur qui! Repellendus exercitationem cupiditate atque aut nam ratione eveniet alias consequatur earum tenetur veritatis culpa vero amet laboriosam tempore dicta quia, corporis perferendis perspiciatis, molestiae deserunt provident. Nisi deleniti dicta vel magni amet cumque numquam, ullam officia quas beatae fugit molestiae cum suscipit dolorum fuga quos eveniet architecto blanditiis iusto quisquam ad odit voluptas! Tempore voluptatem obcaecati optio iusto beatae odio earum modi repudiandae, aliquam perferendis? Perspiciatis mollitia suscipit quas dignissimos provident nam necessitatibus exercitationem nobis eaque pariatur expedita recusandae amet eos similique totam culpa eum veniam doloremque omnis praesentium, est minus veritatis. Nesciunt tenetur facere consequuntur eos dolor accusantium sunt aut maiores ea repellat amet nostrum quibusdam cumque, ducimus labore illo vero doloribus atque quia, error adipisci cupiditate inventore recusandae. Asperiores, beatae quia ea omnis temporibus molestias consequatur minima deserunt praesentium quibusdam saepe explicabo quos adipisci qui odit! Tempora iste iusto ipsam qui corporis doloremque, veritatis magnam aperiam iure est enim eaque corrupti consequatur necessitatibus atque sit, sint recusandae? Non quam suscipit nemo officiis unde facilis ullam excepturi error. Dignissimos aut, accusantium nihil, ducimus mollitia libero, facilis
+        
+      </main>
+      
+      <script src="menu.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
